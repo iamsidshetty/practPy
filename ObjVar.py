@@ -45,7 +45,7 @@ if __name__ == "__main__":
     Sid.popCount()
 
     """
-    Note, onbject that are no longer in use are destroyed using del,
+    Note, object that are no longer in use are destroyed using del,
     which is similar to destructor.
     """
 
