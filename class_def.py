@@ -40,3 +40,8 @@ if __name__ == "__main__":
     res = inst.calculate(opt, x, y)
     if res is not None:
         inst.display(res)
+    #alternate of the above 4 lines can be as follows:
+    # inst = BasicMaths()
+    # res = BasicMaths.calculate(inst, opt, x, y) #inst is assigned to self
+    # if res is not None:
+    #     BasicMaths.display(inst, res)
